@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBeautyofMyQueen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 class="lg">Love Gallery</h1>
+        <div class="image-container">
+            <h1>My Beautiful Queen Ana</h1>
+            <img src="images/gfkmn.jpg" alt="love" height="400px" width="400px" >
+        </div>
+    </section>
+
+    <section>
+
+        <div class="paragraph-b">
+            <h2>
+                မျက်မှန်နဲ့ ကောင်မလေးရဲ့ အကြည်ဓာတ်
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="image-container-1">
+            <h1>My Favorite Love</h1>
+            <img src="images/gfkmn1.jpg" alt="love" height="400px" width="400px" >
+        </div>
+    </section>
+
+    <section>
+
+        <div class="paragraph-c">
+            <h2>
+                Coffee နဲ့ သူမ ACE ရဲ့ favorite လေးနှစ်ခု
+                <br>
+                Favorite %
+                <br>
+                Ana    - 99.99%
+                <br>
+                Coffee - 0.01%
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="image-container-2">
+            <h1>Love that never age</h1>
+            <img src="images/gfkmn2.jpg" alt="love" height="500px" width="400px" >
+        </div>
+    </section>
+
+    <section>
+
+        <div class="paragraph-d">
+            <h2>
+                မြန်မာဆန်ဆန်လေးနဲ့ နန်းစံတာဘဲ
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="image-container-2">
+            <h1>Let me carry your life <3</h1>
+            <img src="images/gfkmn3.jpg" alt="love" height="500px" width="400px" >
+        </div>
+    </section>
+
+
+    <section>
+
+        <div class="paragraph-d">
+            <h2>
+                ဆိုင်ကယ်လေးလိုမျိုး Ana life ကို တူတူ carry သွားချင်တယ် 💞   
+            </h2>
+        </div>
+    </section>
+
+        <!-- <section>
+            <div class="image-container-2">
+                <h1>Fantastic</h1>
+                <img src="images/kmngf5.jpg" alt="love" height="500px" width="400px" >
+            </div>
+        </section>
+
+        <section>
+        <div class="paragraph-d">
+            <h2>
+                ပြီးပြည့်စုံတဲ့အလှတရားနဲ့သဘာဝနဲ့ပေါင်းစပ်မှု  
+            </h2>
+        </div>
+        </section> -->
+        
+
+    <div class="container">
+        <div class="box collapsed" id="surpriseBox">
+            <div class="content">
+                <h2>My Secret Love🤍</h2>
+                <p>Halloween မှာဆုံခဲ့ပြီး မေ့လိုမရတဲ့ မျက်ဝန်းတွေနဲ့ မျက်မှန်အောက်က အကြည့်တစ်စုံကို ထာဝရပိုင်ဆိုင်ချင်မိတယ်😘</p>
+            </div>
+        </div>
+        <button id="toggleButton">Secret 🤍 Message</button>
+    </div>
+
+    <script>
+        const surpriseBox = document.getElementById('surpriseBox');
+const toggleButton = document.getElementById('toggleButton');
+
+let isOpen = false;
+
+toggleButton.addEventListener('click', () => {
+    isOpen = !isOpen;
+    surpriseBox.classList.toggle('collapsed', !isOpen);
+    toggleButton.textContent = isOpen ? '🤍' : 'Secret 🤍 Message';
+});
+    </script>
+
+
+    <section>
+        <div class="button-container2">
+            <button class="button4" onclick="goToPage()">Surprise page သို့သွားရန်</button>
+        </div>
+    </section>
+
+
+    <script>
+        function goToPage() {
+    window.location.href = 'reply.html';
+}
+    </script>
+</body>
+</html>

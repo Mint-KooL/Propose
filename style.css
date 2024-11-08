@@ -1,0 +1,319 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f9d4e0;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.intro h1 {
+    color: rgb(246, 70, 70);
+}
+
+.first {
+    
+    text-align: center;
+}
+
+.first h2 {
+    color: rgb(246, 70, 70);
+}
+
+.button-container {
+    margin-top: 50px;
+    text-align: center; 
+}
+
+.button-container button {
+    display: inline-block; 
+    margin: 0 10px; 
+    padding: 10px 20px; 
+    background-color: rgb(184, 54, 184); 
+    border: none; 
+    color: white; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 20px; 
+    cursor: pointer; 
+}
+
+.button1:hover {
+    color: black;
+    background-color: rgb(241, 241, 118);
+    box-shadow: 0 0 10px #fdfeff;
+}
+
+.button-container1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.button-container1 button {
+    display: inline-block; 
+    margin: 0 10px; 
+    padding: 5px 10px; 
+    background-color: rgb(239, 176, 80); 
+    border: none; 
+    color: white; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 17px; 
+    cursor: pointer; 
+}
+
+.button3:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px #fdfeff;
+}
+
+.image-container {
+    text-align: center;
+    padding: 15px;
+    color: #001F3F;
+}
+
+.image-container img {
+    border: 5px solid rgb(94, 86, 86); 
+    border-radius: 5px;
+}
+
+.paragraph-b h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #001F3F;
+}
+
+
+
+
+.image-container-1 {
+    text-align: center;
+    padding: 15px;
+    color: #001F3F;
+}
+
+.image-container-1 img {
+    border: 5px solid rgb(94, 86, 86); 
+    border-radius: 5px;
+}
+
+.paragraph-c h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #001F3F;
+}
+
+
+
+
+.image-container-2 {
+    text-align: center;
+    padding: 15px;
+    color: #001F3F;
+}
+
+.image-container-2 img {
+    border: 5px solid rgb(94, 86, 86); 
+    border-radius: 5px;
+}
+
+.paragraph-d h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #001F3F;
+}
+
+
+
+
+.paragraph-e h2 {
+    text-align: center;
+    font-size: 20px;
+    color: #001F3F;
+}
+
+.hr1 {
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.hr2 {
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 40%;
+}
+
+.hr3 {
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 20%;
+}
+
+.note {
+    padding-bottom: 30px;
+}
+
+.note h1 {
+    text-align: center;
+    padding: 5px;
+    color: #001F3F;
+    border: 5px solid rgb(236, 207, 60);
+    border-radius: 5px;
+}
+
+.button-container2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.button-container2 button {
+    display: inline-block; 
+    margin: 0 10px; 
+    padding: 10px 20px; 
+    background-color: rgb(239, 176, 80); 
+    border: none; 
+    color: white; 
+    text-align: center;
+    text-decoration: none; 
+    font-size: 17px; 
+    cursor: pointer; 
+}
+
+.button4:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px #fdfeff;
+}
+
+.first-p {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.first-p span {
+    font-size:  25px;
+}
+
+.second-p {
+    margin: 20px auto;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.second-p h1 {
+    padding: 30px;
+    font-size: 20px;
+    color: #001F3F;
+    border: 3px solid #c3e37d;
+    border-radius: 25px;
+}
+
+.third-p {
+    padding: 15px;
+    text-align: center;
+}
+
+.third-p h1 {
+    font-size: 20px;
+    color: #001F3F;
+}
+
+.love {
+    background: blanchedalmond;
+}
+
+.lg {
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.p-letter {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.p-letter h1 {
+    font-size: 20px;
+    color: #001F3F;
+    padding: 5px;
+}
+
+.p-letter2 {
+    padding-bottom: 30px;
+    text-align: center
+}
+
+.p-letter2 h1 {
+    font-size: 20px;
+    color: #001F3F;
+}
+
+.proposep {
+    background-color: #FFFDD0;
+}
+
+
+
+
+
+
+
+
+.container {
+    text-align: center;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(61, 236, 61);
+    border: 2px solid #333;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    margin: 20px auto;
+}
+
+.box.collapsed {
+    height: 0;
+    opacity: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+    transition: opacity 0.3s ease;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LPtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
